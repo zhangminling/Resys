@@ -147,7 +147,7 @@
                                 <!-- Settings -->
                             </ul>
                             <div class="setting">
-                                <a id="btn-log-out" title="回到前台主页" href="index2.aspx" target="_blank">
+                                <a id="btn-log-out" title="回到前台主页" href="index.aspx" target="_blank">
                                     <i class="icon glyphicon glyphicon-home"></i>
                                 </a>
                             </div>

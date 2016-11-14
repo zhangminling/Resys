@@ -81,7 +81,7 @@ body {
 	z-index: 1000; 
 }
 
-.inner_content { padding:20px 0 0 0; }
+.inner_content { padding:20px 0 0 0px; }
 .wrapper {  margin:0px auto; padding:0 0 60px;}
 #banner { background:#e9e6e1; width: 100%; }
 .intro_wrapper {  margin:0 auto; padding:0 0 40px;}
@@ -98,7 +98,7 @@ a:hover, a:active, a:focus { outline: 0!important;}
 ::-moz-selection{ color:#fff; background:#19C1C3; }
 ::selection { color:#fff; background:#19C1C3; }
 p {margin-bottom:15px; }
-span { font-weight:700; }
+span { font-weight:500; }
 small { letter-spacing:0.2em; font-size:11px; }
 .clear { height:0; clear: both; font-size:0; }
 .normal { font-weight: normal; }
@@ -289,7 +289,12 @@ h1.intro {  line-height:40px; font-weight:300;}
     -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+.toleft 
+{
+    margin-left:100px;
+}
 @media screen and (min-width: 769px) and (max-width: 1024px){
+
 .shotList img {width: 49%!important; padding: 0 6px 6px 0; margin: 0 auto!important;  }
 .logo a img{
  	float:left; 
@@ -306,6 +311,10 @@ h1.intro {  line-height:40px; font-weight:300;}
 
 }
 @media only screen and (max-width: 480px) { 
+.toleft 
+{
+    margin-left:10px;
+}
 .shotList img {width: 100%!important; padding: 0 0 20px 0; margin: 0 auto!important; margin-left: -10px!important; }
 .logo a img{
  	float:left; 

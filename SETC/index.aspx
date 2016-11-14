@@ -124,7 +124,7 @@
 			<div class="tile">
 			<div class="intro-icon-disc cont-large"><i class="fa fa-wrench intro-icon-large"></i></div>
 			<h6><small>DESIGN</small>
-			<br><a href="#"><span>全媒体平台</span></a></h6>
+			<br /><a href="Article_View.aspx?ID=3"><span>全媒体平台</span></a></h6>
 			<p>锐赛思全终端媒体平台，创新性地推出全终端媒体平台，支持手机、平板、电脑、电视、微信、APP六大终端媒体，成为行业内第一个覆盖全终端的媒体管理和发布平台。  </p>
 			</div> 
 				<div class="pad25"></div>
