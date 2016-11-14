@@ -1,0 +1,262 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterFrontPage.master.cs" Inherits="MasterFrontPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="utf-8" />
+<title>锐赛思ReSys 全媒体平台 网站群系统 微信网站 手机网站</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="锐赛思ReSys 全媒体平台 网站群系统 微信网站 手机网站" />
+<meta name="author" content="Jsutin" />
+ <link rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
+
+<!-- Google Fonts 
+<link href='http://fonts.useso.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>-->
+<!--[if IE]>
+	<link href="http://fonts.useso.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="http://fonts.useso.com/css?family=Lato:400" rel="stylesheet" type="text/css">
+	<link href="http://fonts.useso.com/css?family=Lato:700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.useso.com/css?family=Lato:300" rel="stylesheet" type="text/css">
+<![endif]-->
+
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/theme.css" rel="stylesheet" />
+<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
+<link href="css/zocial.css" rel="stylesheet" type="text/css"/>
+<link href="css/settings.css" rel="stylesheet" type="text/css"/>
+<link href="css/alt_footer.css" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--header-->
+<div id="Entry-header">
+<div class="row">
+     <div id="Entry">
+        <%--        <span><a href="#" target="_blank">学校官网</a></span>|
+                <span><a href="#" target="_blank">旧版院网</a></span>|--%>
+                <span><asp:Literal ID="Literal1" runat="server"></asp:Literal></span>|
+                <span><asp:Literal ID="Literal2" runat="server"></asp:Literal></span>   
+        </div>
+</div>
+ </div>
+<div class="header">
+		<div class="container">
+		<!--logo-->
+			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<i class="fa fa-bars"></i></button>
+					<div class="logo">
+						 <a href="index.html"><img src="img/logo.png" alt="" class="animated bounceInDown" /></a> 
+      
+					</div>
+					<!--menu-->
+					   <nav id="main_menu">
+					<div class="nav-collapse collapse">
+						<ul class="nav nav-pills">
+							<li class="dropdown active"><a href="index.aspx">网站首页</a> 
+							</li>
+							<li class="dropdown"></li>
+						  <li class="dropdown"></li>
+							<li class="dropdown"><a href="javascript:{}">产品展示</a>
+							  <ul class="dropdown-menu">
+							    <li><a href="#">全媒体平台</a></li>
+							    <li><a href="#">资源库管理系统</a></li>
+							    <li><a href="#">混合云平台</a></li>
+							    <li><a href="#">微信校园预约系统</a></li>
+						      </ul>
+						  </li>
+							<li class="dropdown"><a href="javascript:{}">服务支持</a>
+						<ul class="dropdown-menu">
+								<li><a href="#">技术资料下载</a></li>
+								<li><a href="#">售后服务</a></li>
+								<li><a href="#">投诉建议</a></li>
+						</ul>
+							</li>
+							<li class="dropdown"><a href="javascript:{}">代理合作</a>
+						
+							</li>
+							<li class="dropdown"><a href="javascript:{}">成功案例</a>
+						      <ul class="dropdown-menu">
+								<li><a href="#">教育技术与传播学院官网</a></li>
+								<li><a href="#">顺德研究院官网</a></li>
+								<li><a href="#">多维度精神康复系统</a></li>
+						</ul>
+							</li>
+							<li class="dropdown"><a href="javascript:{}">联系我们</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+    	<!--//header-->
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    	<!-- footer  -->
+	<div id="footer_alt" >
+    <div class="margintotop">
+		<div class="container"><div class="row">
+		<!--column 1-->
+			<div class="span3">
+					<h6>Resys.cn锐赛思</h6>
+					<ul>
+						<li>
+						<p>广州锐赛思网络信息技术有限公司</p>
+						<p>
+						粤ICP备案 2016-2018
+						</p>
+						
+						<p>
+                        本站采用 锐赛思Resys™ 全媒体平台建设
+						</p>
+                        
+                      <p>
+                      手机版 | 平板版 | 电脑版 | 电视版 | 微信版 | App版
+                      </p>
+						</li>
+					</ul>
+				</div>
+				<!--column 2-->
+				<div class="span3">
+					<h6>关于我们</h6>
+					<ul class="media-list">
+							<li class="media">
+								<img class="img-rounded pull-left" src="img/small/pop_post1.jpg" alt="" height="42" width="42">
+								<div class="media-body">
+								<a href="#">联系我们</a>
+								<br/><i class="fa fa-clock-o hue"></i> March 12th 2013</div>
+							</li>
+							
+							<li class="media">
+								<img class="img-rounded pull-left" src="img/small/pop_post2.jpg" alt="" height="42" width="42" />
+								<div class="media-body">
+								<a href="#">行业动态</a>
+								<br/><i class="fa fa-clock-o hue"></i> Feb 14th 2013
+								</div>
+							</li>
+							
+							<li class="media">
+								<img class="img-rounded pull-left" src="img/small/pop_post3.jpg" alt="" height="42" width="42" />
+								<div class="media-body">
+								<a href="#">加入我们
+							</a>
+								<br/><i class="fa fa-clock-o hue"></i> Jan 23rd 2013</div>
+							</li>
+                            
+                           <li class="media">
+								<img class="img-rounded pull-left" src="img/small/pop_post3.jpg" alt="" height="42" width="42" />
+								<div class="media-body">
+								<a href="#">常见问题
+							</a>
+								<br/><i class="fa fa-clock-o hue"></i> Jan 23rd 2013</div>
+							</li>
+                            
+                            <li class="media">
+								<img class="img-rounded pull-left" src="img/small/pop_post3.jpg" alt="" height="42" width="42" />
+								<div class="media-body">
+								<a href="#">意见反馈
+							</a>
+								<br/><i class="fa fa-clock-o hue"></i> Jan 23rd 2013</div>
+							</li>
+						</ul>  
+							</div>
+					<!--column 3-->		
+					<div class="span3">
+					<h6>扫一扫</h6>
+					<img src="img/large/Handler.gif" alt="" />
+					</div>
+					<!--column 4-->
+					<div class="span3">
+					<!--flickr-->
+					<h6>在线咨询</h6>
+					<div class="flickrs">
+						<div class="FlickrImages">
+							<ul>
+							</ul>
+							<div class="clear">
+							</div>
+								</div>
+									</div>
+				
+							<div class="copyright">
+							Resys
+							&copy;
+							<script type="text/javascript">
+								var d = new Date()
+								document.write(d.getFullYear())
+								</script>
+							 - 提供最好的网站服务<br/>
+							
+						</div>
+                        </div>
+						</div>
+					</div>
+				</div>
+</div>
+						
+<!-- up to top -->
+				<a href="#"><i class="go-top hidden-phone hidden-tablet fa fa-angle-double-up"></i></a>
+				<!--//end-->
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>			
+<script src="js/bootstrap.min.js"></script>	
+<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+<!-- slider settings -->
+<script>
+	//<![CDATA[
+    $(document).ready(function() {
+	if ($.fn.cssOriginal!=undefined)
+	$.fn.css = $.fn.cssOriginal;
+	$('.fullwidthbanner').revolution(
+		{
+			delay:9000,
+			startwidth:1170,
+			startheight:550,
+			onHoverStop:"on",	
+			navigationType:"none",		
+			soloArrowLeftHOffset:0,
+			soloArrowLeftVOffset:0,
+			soloArrowRightHOffset:0,
+			soloArrowRightVOffset:0,
+			touchenabled:"on",			
+			fullWidth:"on",
+			shadow:0					
+		});
+	});
+//]]>
+</script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>				
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<!-- carousel -->
+<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+jQuery(document).ready(function($) {
+	$("#slider_home").carouFredSel({ width : "100%", height : "auto",
+	responsive : true,  circular : true, infinite	: false, auto : false,
+	items : { width : 231, visible: { min: 1, max: 3 }
+	},
+	swipe : { onTouch : true, onMouse : true },
+	scroll: { items: 3, },
+	prev : { button : "#sl-prev", key : "left"},
+	next : { button : "#sl-next", key : "right" }
+	});
+		});
+		//]]>
+	</script>
+    </form>
+</body>
+</html>
