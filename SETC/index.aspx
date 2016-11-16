@@ -189,7 +189,7 @@
 					</div>
 				</div>
 				<div class="slider-title">
-				<h3><a href="#">教育技术与传播学院官网</a></h3>
+				<h3><a href="Article_Preview.aspx?ID=5">教育技术与传播学院官网</a></h3>
 				<p>独立为广东省实力强劲的高校广东技术师范学院的二级学院教育技术与传播学院独立定制的网站系统，得到该学院的广大师生的好评</p>
 				</div>
 			</div>

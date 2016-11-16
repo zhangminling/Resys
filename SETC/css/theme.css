@@ -294,7 +294,10 @@ h1.intro {  line-height:40px; font-weight:300;}
     margin-left:100px;
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
-
+.toleft 
+{
+    margin-left:50px;
+}
 .shotList img {width: 49%!important; padding: 0 6px 6px 0; margin: 0 auto!important;  }
 .logo a img{
  	float:left; 
@@ -307,6 +310,10 @@ h1.intro {  line-height:40px; font-weight:300;}
 
 }
 @media screen and (min-width: 481px) and (max-width: 768px){
+.toleft 
+{
+    margin-left:50px;
+}
 .shotList img {width: 48%!important; padding: 0 3% 5px 0; margin: 0 auto!important; margin-left: -10px!important; }
 
 }

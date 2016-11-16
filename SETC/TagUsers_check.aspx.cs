@@ -16,11 +16,11 @@ public partial class TagUsers_check : System.Web.UI.Page
 
             if (Session["RoleID"] == null || Session["UserID"] == null)
             {
-                Util.ShowMessage("用户登录超时，请重新登录！", "Login2.aspx");
+                Util.ShowMessage("用户登录超时，请重新登录！", "Login.aspx");
             }
             else if (RoleID > 1)
             {
-                Util.ShowMessage("您没有访问该页面的权限！", "Login2.aspx");
+                Util.ShowMessage("您没有访问该页面的权限！", "Login.aspx");
             }
             else
             { 

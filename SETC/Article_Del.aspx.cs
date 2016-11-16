@@ -14,7 +14,7 @@ public partial class Article_Del : System.Web.UI.Page
         {
             if (Session["RoleID"] == null || Session["UserID"] == null)
             {
-                Util.ShowMessage("用户登录超时，请重新登录！", "Login2.aspx");
+                Util.ShowMessage("用户登录超时，请重新登录！", "Login.aspx");
             }
             else {
                 //User以下权限不能访问该页面

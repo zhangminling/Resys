@@ -15,7 +15,7 @@ public partial class Folder_Add : System.Web.UI.Page
     {
         if (Session["RoleID"] == null || Session["UserID"] == null)
         {
-            Util.ShowMessage("用户登录超时，请重新登录！", "Login2.aspx");
+            Util.ShowMessage("用户登录超时，请重新登录！", "Login.aspx");
         }
         else
         {

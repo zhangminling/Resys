@@ -14,7 +14,7 @@ public partial class Profile_PhotoAlbum : System.Web.UI.Page
         {
             if (Session["UserID"] == null)
             {
-                Util.ShowMessage("会话超期，请重新登录", "Login2.aspx");
+                Util.ShowMessage("会话超期，请重新登录", "Login.aspx");
             }
             else
             {

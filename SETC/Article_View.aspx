@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterFrontPage.master" AutoEventWireup="true" CodeFile="Article_View.aspx.cs" Inherits="Article_View" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterFrontPage.master" AutoEventWireup="true" validateRequest="false" CodeFile="Article_View.aspx.cs" Inherits="Article_View" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <script type="text/javascript" src="js2/jquery.js"></script>
@@ -19,7 +19,7 @@
    
 </script>
     <%-- 文章字体放大缩小js --%>
-    <script>
+     <script>
         window.onload = function () {
           var cookieCount1 = {};
             cookieCount1.count1 = function () {
@@ -81,7 +81,12 @@
             cookieCount1.count1();
  };
 
-    </script> 
+    </script>
+<%--<script>
+    function doZoom(size) {
+        document.getElementById('zoom').style.fontSize = size + 'pt'
+    }
+</script>--%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <link rel="stylesheet" href="pager.css" type="text/css" />
@@ -122,8 +127,13 @@
             
                 <p>&nbsp;</p>
              
-   <div id="myPrintArea">
-   
+ <%--  <div id="myPrintArea">
+   <div id="zoom1">这是一段示例文字，你可以点击下边选择不同字号的字体，这段文字会随即改变大小。脚本之家。</div>
+
+    <p align="right">选择字号：[ <a
+ href="javascript:doZoom(25)">13pt（超大）</a> <a
+ href="javascript:doZoom(15)">10.5pt（中型）</a> <a
+ href="javascript:doZoom(10)">9pt（标准）</a> ]</p>--%>
                 <div class="ArticleTitle" style="color: #0097B3;">
                          <asp:Label ID="ArticleTitle" runat="server" Text="Label" Font-Bold="true" Font-Size="16"></asp:Label>
                 </div>
@@ -136,7 +146,8 @@
                     点赞：<asp:Label ID="LikeTimes" runat="server" Text="0"></asp:Label>
                     <input id="Abtn2" type="button" value="A-" />
                     <input id="Abtn3" type="button" value="A" />
-                    <input id="Abtn1" type="button" value="A+" style="margin-top:-3px;" />
+
+                    <input id="Abtn1" type="button" value="A+" style="margin-top:-3px;" 
                     <span id="biuuu_button" ><i class="icons icon-print-2" title="打印文本" style="margin-top:-8px;"></i></span>
                <br />
                    
@@ -158,7 +169,7 @@
                </div>
                 <div id="p1" class="view-content">
                     
-                    <asp:Label ID="Content" runat="server" Text="Label" CssClass="font"></asp:Label>
+                    <asp:Label id="zoom" runat="server" Text="Label" CssClass="font"></asp:Label>
 
                 </div>
 
@@ -192,7 +203,6 @@
                 <div style="text-align:center;position:center; margin-top:-20px; ">
                      <asp:Image ID="ImgCode" runat="server"  Width="80px"/><br /> 分享朋友圈
                     
-                 </div>
                 <p style="clear:both"></p>
             <hr style="height:10px;border:none;border-top:10px groove skyblue;" />
                 <%--评论功能--%>
@@ -238,11 +248,11 @@
                     <p><hr style="border:1px solid ; width:100%; color:#A67200 ; font-size:4px"/></p>
                     <div style="margin-right:15px; float:left">
                       <asp:Image ID="ImageAvatar" runat="server" ImageUrl=<%#Eval("PublisherAvatar")%>  Height="80px" Width="80px" />
-                        <p style="margin-top:-5px">&nbsp;&nbsp;<span style=" font-size:18px; color:#1277c1"><%#Eval("ShowName") %></span></p>
+                        <p>&nbsp;&nbsp;<span style=" font-size:18px; color:#1277c1"><%#Eval("ShowName") %></span></p>
                     </div>                   
-                    <div class="col-md-9">
+                    <div class="col-md-9" style="float:left;">
                         <p><span style="color:#808080;">[<strong><%#Eval("PublishTime") %></strong>]</span></p>
-                        <asp:Label ID="LabelContent" runat="server" Text='<%#Bind("Comment") %>'></asp:Label>                        
+                        <span style="float:left;"><asp:Label ID="LabelContent" runat="server" Text='<%#Bind("Comment")  %>'></asp:Label></span>                        
                         
                     </div>
                 </div>
@@ -406,7 +416,7 @@
 
    </div>
       </div>
-
+      </div>
   <div class="changeblank"></div>  
     <%--打印--%>
     <script type="text/javascript">

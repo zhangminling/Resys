@@ -51,7 +51,6 @@
             }
         });
     </script>
-    <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon" />
 
     <!-- ¾É°æÄ¸°æµÄcss -->
     <link rel="stylesheet" type="text/css" href="User.master.css" />

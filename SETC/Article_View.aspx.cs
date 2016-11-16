@@ -80,7 +80,7 @@ public partial class Article_View : System.Web.UI.Page
                 CDT.Text = String.Format("{0:yyyy-MM-dd}", rd["CDT"]);
                 ViewTimes.Text = rd["ViewTimes"].ToString();
                 ReviewTimes.Text = rd["ReviewTimes"].ToString();
-                Content.Text = rd["Content"].ToString();
+                zoom.Text = rd["Content"].ToString();
                 Summary.Text = rd["Summary"].ToString();
 
                 Author.Text = rd["Author"].ToString();
