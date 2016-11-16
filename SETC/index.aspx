@@ -134,7 +134,7 @@
 				<div class="tile">
 				<div class="intro-icon-disc cont-large"><i class="fa fa-rocket intro-icon-large"></i></div>
 				<h6><small>CODE</small>
-				<br><a href="#"><span>网站群管理系统</span></a></h6>
+				<br><a href="Article_View.aspx?ID=6"><span>网站群管理系统</span></a></h6>
 				<p>锐赛思网站群管理系统，以集中部署、统一验证、分级管理、资源共享为核心，帮助政府、企业和高校将一群信息孤立网站，转变为风格统一、运营规范的整体网站。</p>
 				</div> 
 					<div class="pad25"></div>
@@ -144,7 +144,7 @@
 				<div class="tile">
 				<div class="intro-icon-disc cont-large"><i class="fa fa-flask intro-icon-large"></i></div>
 				<h6><small>CREATE</small>
-				<br><a href="#"><span>微信网站系统</span></a></h6>
+				<br><a href="Article_View.aspx?ID=7"><span>微信网站系统</span></a></h6>
 				<p>锐赛思微信网站系统，把企业的门户网站与微信公众号实现无缝整合，给企业和组织提供强大的业务服务能力和用户管理能力，帮助企业快速实现微信公众号的有效运营和管理。 </p>	
 				</div> 
 					<div class="pad25"></div>
@@ -154,7 +154,7 @@
 				<div class="tile ">
 				<div class="intro-icon-disc cont-large"><i class="fa fa-book  intro-icon-large"></i></div>
 				<h6> <small>SUPPORT</small>
-				<br><a href="#"><span>手机网站系统</span></a></h6>
+				<br><a href="Article_View.aspx?ID=8"><span>手机网站系统</span></a></h6>
 				<p>锐赛思手机网站系统，以手机用户的浏览体验为核心，精心设计手机页面，优化响应时间，提高用户满意度和转化率。锐赛思提供了手机网站的设计、开发、管理、和运维的一站式解决方案。</p>
 				</div>
 					<div class="pad25"></div>	
@@ -189,7 +189,7 @@
 					</div>
 				</div>
 				<div class="slider-title">
-				<h3><a href="Article_Preview.aspx?ID=5">教育技术与传播学院官网</a></h3>
+				<h3><a href="Article_View.aspx?ID=5">教育技术与传播学院官网</a></h3>
 				<p>独立为广东省实力强劲的高校广东技术师范学院的二级学院教育技术与传播学院独立定制的网站系统，得到该学院的广大师生的好评</p>
 				</div>
 			</div>

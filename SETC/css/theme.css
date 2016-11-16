@@ -31,6 +31,113 @@ body {
 	text-rendering:optimizeLegibility;
 }
 
+/*返回顶部带二维码样式*/
+.toolbar-item, .toolbar-layer {
+     z-index:2000;
+    background: url(../images/toolbar.png) no-repeat;
+}
+
+.toolbar {
+     z-index:2000;
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+}
+
+.ImgCodeClass{
+     z-index:2000;
+    position: relative;
+    left: 22px;
+    top: 44px;
+    width:130px;
+}
+
+.toolbar-item {
+     z-index:2000;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-top: 0px;
+    border-top:1px solid #fff;
+    border-radius: 0 0 3px 3px;
+	-webkit-border-radius:0 0 3px 3px;
+	-moz-border-radius:0 0 3px 3px;
+    position: relative;
+    box-shadow:-2px 3px 3px rgba(0,0,0,0.5);
+    -moz-transition: background-position 1s;
+    -ms-transition: background-position 1s;
+    -o-moz-transition: background-position 1s;
+    -webkit-moz-transition: background-position 1s;
+    transition: background-position 1s;
+}
+
+.toolbar-item:hover .toolbar-layer {
+     z-index:2000;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.toolbar-item-weixin {
+     z-index:2000;
+    background-position: -3px -800px;
+}
+
+.toolbar-item-weixin:hover {
+    background-position: -3px -860px;
+}
+
+.toolbar-item-weixin .toolbar-layer {
+     z-index:2000;
+    height: 212px;
+    background-position: 0 0;
+}
+
+.toolbar-item-app {
+     z-index:2000;
+    background-position: -3px -553px;
+}
+
+.toolbar-item-app:hover {
+     z-index:2000;
+    background-position: -3px -612px;
+}
+
+.toolbar-item-app .toolbar-layer {
+     z-index:2000;
+    height: 194px;
+    background-position: 0 -222px;
+}
+
+.toolbar-layer {
+    z-index:2000;
+    position: absolute;
+    right: 46px;
+    bottom: -10px;
+    width: 172px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform-origin: 95% 95%;
+    -moz-transform-origin: 95% 95%;
+    -ms-transform-origin: 95% 95%;
+    -o-transform-origin: 95% 95%;
+    -webkit-transform-origin: 95% 95%;
+    transform: scale(0.01);
+    -moz-transform: scale(0.01);
+    -ms-transform: scale(0.01);
+    -o-transform: scale(0.01);
+    -webkit-transform: scale(0.01);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
 
 /**** PAGE CONTAINERS ****/
    /*#TopBar{
@@ -1246,13 +1353,13 @@ h3.follow {
 	bottom:0.5em; right: 0.5em;
 	text-decoration: none;
 	color:white;
-	background-color: rgba(0, 0, 0, 0.3);
-	font-size:30px;
+	background-color: #ffd373;
+	font-size:40px;
 	padding:0.1em 0.3em 0.1em;
 	display:none;
 	border-radius:3px; z-index:500;
 }
-.go-top:hover { background-color:rgba(0, 0, 0, 0.6);}
+.go-top:hover { background-color:#FFB000;}
 
 /*-----------------------------------------------------------------------------------*/
 /*	05: PORTFOLIO, CAROUSEL & THUMB CAROUSELS

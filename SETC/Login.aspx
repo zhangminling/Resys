@@ -56,7 +56,7 @@
         </div>
         <p>&nbsp;</p>  
         <div style="right:auto;text-align: center;">
-           <a href="Register2.aspx">注册账号</a>&nbsp;丨 &nbsp;<a href="Find_Password.aspx">找回密码</a> 
+           <a href="Register.aspx">注册账号</a>&nbsp;丨 &nbsp;<a href="Find_Password.aspx">找回密码</a> 
         </div>
     </div>
   <div class="changeblank"></div>              

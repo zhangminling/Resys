@@ -416,7 +416,6 @@
 
    </div>
       </div>
-      </div>
   <div class="changeblank"></div>  
     <%--打印--%>
     <script type="text/javascript">

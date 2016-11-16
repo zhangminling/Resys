@@ -16,6 +16,17 @@ public partial class MasterFrontPage : System.Web.UI.MasterPage
     {
         if (!IsPostBack) 
         {
+            AbsoluteUrl.Text = Request.Url.AbsoluteUri;
+            string con = PageOperate.GetNullToString(AbsoluteUrl.Text.Trim());
+            if (con == "")
+            {
+                PageOperate.AlertAndRedirect("请填写内容", "Build.aspx");
+                return;
+            }
+            if (ImgCode.ImageUrl == "")
+            {
+                ImgCode.ImageUrl = "Handler.ashx?data=" + Server.HtmlEncode(con) + "&len=4";
+            }
             if (Session["RoleID"] == null || Session["UserID"] == null)
             {
                 Literal1.Text = "<a href='Login.aspx?u=0' target='_blank'>用户登录</a>";

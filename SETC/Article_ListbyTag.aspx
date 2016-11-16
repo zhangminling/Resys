@@ -1,13 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterFrontPage.master" AutoEventWireup="true" CodeFile="Article_ListbyTag.aspx.cs" Inherits="Article_ListbyTag" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+     <link rel="stylesheet" href="pager.css" type="text/css" />
+     <link href="css2/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css2/fontello.css" rel="stylesheet" type="text/css" />
+    <link href="css2/style.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <link rel="stylesheet" href="pager.css" type="text/css" />
-    <div class="list ">
-<asp:Label ID="TagID" runat="server" Visible="false"></asp:Label>
-        <div class="row">
-              <div class="col-lg-9 col-md-9 col-sm-12 col-lg-push-3 col-md-push-3 col-sm-push-0">
+    <asp:Label ID="TagID" runat="server" Visible="false"></asp:Label>
+     <div class="container wrapper">
+	<div class="inner_content toleft">
+              <div class="span7 pad8">
+                  <div class="row">
                   当前位置：<a href="Index2.aspx">网站首页</a> >>当前标签：<asp:Label ID="TagName" runat="server" Text="Label"></asp:Label>
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                   <asp:UpdatePanel ID="UpdatePanel1" runat="server"><ContentTemplate>
@@ -38,9 +43,10 @@
 
                 <!----- 主体1111111----->
                   </div>
+                  </div>
 
 
-            <div class="col-lg-3 col-md-3 col-sm-4  col-lg-pull-9 col-md-pull-9 col-sm-pull-8 sidebar" style="background: white;" id="sidebar">
+            <div class="sidebar span3" style="background: white;" id="sidebar">
                 <!----- 侧边栏22222---->
 
                 <div style="padding-bottom: 20px; padding-top: 2px;">
@@ -96,5 +102,6 @@
 
 
             </div></div>
+  <div class="changeblank"></div>  
 </asp:Content>
 

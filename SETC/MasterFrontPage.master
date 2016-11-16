@@ -96,6 +96,7 @@
 			</div>
 		</div>
     	<!--//header-->
+     <asp:Label ID="AbsoluteUrl" runat="server" Text="" Visible="false"></asp:Label>
     <div>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
@@ -204,7 +205,18 @@
 </div>
 						
 <!-- up to top -->
-				<a href="#"><i class="go-top hidden-phone hidden-tablet fa fa-angle-double-up"></i></a>
+                 <!-- Back To Top -->
+        <div class="toolbar">
+           <a href="###" class="toolbar-item toolbar-item-weixin">
+           <span class="toolbar-layer"></span>
+           </a>
+           <a href="###" class="toolbar-item toolbar-item-app">
+            <span class="toolbar-layer">
+              <asp:Image ID="ImgCode" runat="server" CssClass="ImgCodeClass" />
+            </span>
+           </a>
+        </div>
+	<a href="#"><i class="go-top hidden-phone hidden-tablet fa fa-angle-double-up"></i></a>
 				<!--//end-->
 <!-- SCRIPTS -->
 

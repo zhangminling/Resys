@@ -1,12 +1,16 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterFrontPage.master" AutoEventWireup="true" CodeFile="Find_Password.aspx.cs" Inherits="Find_Password" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+      <link rel="stylesheet" href="pager.css" type="text/css" />
+     <link href="css2/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css2/fontello.css" rel="stylesheet" type="text/css" />
+    <link href="css2/style.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <asp:Label ID="ActiveCode" runat="server" Text=""></asp:Label>
     <p></p>
       <div id="CurrentPosition">密码管理：<a href="#">找回密码</a> </div>
-  <section class="section full-width-bg gray-bg">
+  <section class="section full-width-bg gray-bg animated fadeInDown">
   <div class="my-bg">
         <div class="row">
               
@@ -20,7 +24,7 @@
              <asp:Panel ID="PanelInputName" runat="server"  style="margin-left:40%;" >		
                 <p style="color:red;font-size:16px;font-weight:bold;">1/请输入需要找回密码的用户名</p>
               <br />
-             <span> 会员名：<asp:TextBox ID="txtName" runat="server" Width="155px"></asp:TextBox></span>
+             <span> 会员名：<asp:TextBox ID="txtName" runat="server" Width="155px" Height="30px"></asp:TextBox></span>
             <p style="margin-left:5%;">
             <asp:Button ID="btnNext" runat="server"  Text="下一步" OnClick="btnNext_Click" />&nbsp;&nbsp;&nbsp;&nbsp;
               <asp:Button ID="btnNreturn" runat="server" PostBackUrl="~/Index2.aspx" Text="返　回"  />
@@ -30,12 +34,12 @@
 
          <asp:Panel ID="WayToFind" runat="server" Visible="false"  style="margin-left:40%;margin-top:40px;" >
            <div class="col-lg-4 col-md-4 col-sm-12">
-        <asp:DropDownList ID="WayToFindPsd" runat="server"  OnSelectedIndexChanged="WayToFindPsd_SelectedIndexChanged" AutoPostBack="True" >
+        <asp:DropDownList ID="WayToFindPsd" runat="server" Height="40px" Width="250px" OnSelectedIndexChanged="WayToFindPsd_SelectedIndexChanged" AutoPostBack="True" >
       <asp:ListItem >请选择找回密码的方式</asp:ListItem>
      <asp:ListItem >通过邮件找回密码</asp:ListItem>
     <asp:ListItem > 验证密保找回密码</asp:ListItem>    
       </asp:DropDownList>
-          <p style="margin-left:20%;">
+          <p style="margin-left:10%;">
               <asp:Button ID="WayToFindReturn" runat="server" Text="返　回"  OnClick="WayToFindReturn_Click"  />
             </p>
         </div>
@@ -46,8 +50,8 @@
          <asp:Panel ID="EmailPanel" runat="server" Visible="false"  style="margin-left:40%;">
               <p style="color:red;font-size:16px;font-weight:bold;margin-left:30px;">2/请确认您的邮箱</p>
               <br />
-             <span> 邮箱号：<asp:TextBox ID="Email" runat="server" Width="155px"></asp:TextBox></span>
-             <asp:Label ID="Label5" runat="server" Text=""></asp:Label>
+             <span> 邮箱号：<asp:TextBox ID="Email" runat="server" Width="155px" Height="30px"></asp:TextBox></span>
+             <asp:Label ID="Label5" runat="server" Width="155px" Text=""></asp:Label>
             <p style="margin-left:4.8%;">
             <asp:Button ID="EmailToFind" runat="server"  Text="下一步" OnClick="EmailToFind_Click" />&nbsp;&nbsp;&nbsp;&nbsp;
               <asp:Button ID="Button7" runat="server" Text="返　回"  OnClick="EmailToReturn_Click"  />
@@ -127,6 +131,8 @@
 								
 					
     </section>
+
+ <div class="changeblank1"></div>  
 							
 </asp:Content>
 
