@@ -23,11 +23,7 @@
 
      });
 
-
-
-
-
-    </script>   
+ </script>   
     <!-- Make sure the path to CKEditor is correct. -->
     <script type="text/javascript" src="ckeditor201507/ckeditor.js"></script>
     <%--插入资源用的js代码--%>

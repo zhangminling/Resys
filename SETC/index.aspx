@@ -29,7 +29,7 @@
 				
 				<!-- Caption -->	
 				<div class="caption sft stl" data-x="center" data-y="105" data-speed="1000" data-start="700" data-easing="easeOutExpo">
-					<h3 class="rev-title bold">混合云平台</h3>
+					<a href="Article_View.aspx?ID=10"><h3 class="rev-title bold">混合云平台</h3></a>
 				</div>
 				
 				
@@ -40,7 +40,7 @@
 				
 				<!-- Caption -->
 				<div class="caption sfb" data-x="center" data-y="320" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
-					<a href="#" class="btn btn-primary btn-custom">更多</a>                 
+					<a href="Article_View.aspx?ID=10" class="btn btn-primary btn-custom">更多</a>                 
 				</div>
 			</li>
 			
@@ -55,7 +55,7 @@
 					
 				<!-- Caption -->
 				<div class="caption lfl stl bg" data-x="20" data-y="60" data-speed="800" data-start="700" data-easing="easeOutExpo">
-					<h2 class="rev-title big white">全媒体平台<br />成熟的网站群框架</h2>
+					<a href="Article_View.aspx?ID=3"><h2 class="rev-title big white">全媒体平台<br />成熟的网站群框架</h2></a>
 				</div>
 					
 				<!-- Caption -->
@@ -68,7 +68,7 @@
 					
 				<!-- Caption -->
 				<div class="caption sfb stb rev-left" data-x="left" data-y="380" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
-					<a href="#" class="btn btn-inverse btn-custom mobile">具体详情</a>   &nbsp;&nbsp;
+					<a href="Article_View.aspx?ID=3" class="btn btn-inverse btn-custom mobile">具体详情</a>   &nbsp;&nbsp;
 					<a href="#" class="btn btn-inverse btn-custom mobile">联系我们</a>                     
 				</div>
 			</li>
@@ -84,7 +84,7 @@
 				
 				<!-- Caption -->
 				<div class="caption lfl stl bold bg rev-left" data-x="left" data-y="80" data-speed="800" data-start="1500" data-easing="easeOutExpo">
-					<h3 class="rev-title big bold">校园微信预约系统</h3>
+					<a href="Article_Preview.aspx?ID=11"><h3 class="rev-title big bold">校园微信预约系统</h3></a>
 				</div>
 
 				<!-- Caption -->
@@ -101,12 +101,12 @@
 				
 				<!-- Caption -->
 				<div class="caption fade fullscreenvideo" data-autoplay="false"  data-speed="500" data-start="500" data-easing="easeOutBack">
-				<img src="img/slider/slidera.jpg" alt="" />
+				 <a href="Article_View.aspx?ID=9"><img src="img/slider/slidera.jpg" alt="" /></a>
 				</div>
 				
 				<div class="caption big_white sft stt" data-x="center" data-y="25" data-speed="300" data-start="500" data-easing="easeOutExpo" data-end="4000" 
 				data-endspeed="300" data-endeasing="easeInSine">
-				资源库管理系统
+				 <a href="Article_View.aspx?ID=9">资源库管理系统</a>
 				</div>
 			</li>
 		</ul>
@@ -144,7 +144,7 @@
 				<div class="tile">
 				<div class="intro-icon-disc cont-large"><i class="fa fa-flask intro-icon-large"></i></div>
 				<h6><small>CREATE</small>
-				<br><a href="Article_View.aspx?ID=7"><span>微信网站系统</span></a></h6>
+				<br /><a href="Article_View.aspx?ID=7"><span>微信网站系统</span></a></h6>
 				<p>锐赛思微信网站系统，把企业的门户网站与微信公众号实现无缝整合，给企业和组织提供强大的业务服务能力和用户管理能力，帮助企业快速实现微信公众号的有效运营和管理。 </p>	
 				</div> 
 					<div class="pad25"></div>
@@ -197,12 +197,12 @@
 			<div class="slider-item">
 				<div class="slider-image">
 				<div class="hover_colour">
-				<a href="img/large/s2.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s2.jpg" alt="" /></a>
+				<a href="img/large/3.png" data-rel="prettyPhoto">
+					<img src="img/small/3.png" alt="" /></a>
 					</div>
 				</div>
 				<div class="slider-title">
-				<h3><a href="#">顺德研究院官网</a></h3>
+				<h3><a href="Article_View.aspx?ID=12">顺德研究院官网</a></h3>
 				<p>工业4.0，德国工业专家和中国学者共聚顺德，指点江山，激扬文字，商讨工业的新时代</p>
 				</div>
 			</div>
@@ -210,8 +210,8 @@
 			<div class="slider-item">
 				<div class="slider-image">
 				<div class="hover_colour">
-				<a href="img/large/s3.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s3.jpg" alt="" /></a>
+				<a href="img/large/2.png" data-rel="prettyPhoto">
+					<img src="img/small/2.png" alt="" /></a>
 					</div>
 				</div>
 				<div class="slider-title">

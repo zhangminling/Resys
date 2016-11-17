@@ -345,7 +345,7 @@ public partial class User_Edit2 : System.Web.UI.Page
     {
         ErrorLabel.Text = "";
         int RoleID = Convert.ToInt16(Session["RoleID"].ToString());
-        int i = 0, j = 0, q = 0;
+        int i = 0;
         string username = Convert.ToString(Session["UserName"]);
         string userid = Convert.ToString(Session["UserID"]);
         string ip = Request.UserHostAddress;//IP地址
