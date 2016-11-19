@@ -147,7 +147,7 @@
                     <input id="Abtn2" type="button" value="A-" />
                     <input id="Abtn3" type="button" value="A" />
 
-                    <input id="Abtn1" type="button" value="A+" style="margin-top:-3px;" 
+                    <input id="Abtn1" type="button" value="A+" style="margin-top:-3px;" />
                     <span id="biuuu_button" ><i class="icons icon-print-2" title="打印文本" style="margin-top:-8px;"></i></span>
                <br />
                    
@@ -312,7 +312,7 @@
                             </div>
 
                             <div id="List-Title">
-                                <p><a href='Article_View2.aspx?ID=<%# Eval("ID") %>'><%# Eval("Title") %>  </a></p>
+                                <p><a href='Article_View.aspx?ID=<%# Eval("ID") %>'><%# Eval("Title") %>  </a></p>
                             </div>
                               
                             <div id="CDT" style="float: right; width: 30%; text-align: center;">

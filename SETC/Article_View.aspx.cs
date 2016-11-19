@@ -137,8 +137,8 @@ public partial class Article_View : System.Web.UI.Page
                 rd.Close();
             }
 
-            cmd.CommandText = "select top 5* from Articles where SubID = @SubID and ID <>@ArticleID and Status = 1 and Finished = 1 and IsList=1 and Valid = 1 order by ViewTimes Desc";
-            cmd.Parameters.AddWithValue("@SubID", SubID);
+            cmd.CommandText = "select top 5* from Articles where CatID = @CatID3 and ID <>@ArticleID and Status = 1 and Finished = 1 and IsList=1 and Valid = 1 order by ViewTimes Desc";
+            cmd.Parameters.AddWithValue("@CatID3", CatID);
             cmd.Parameters.AddWithValue("@ArticleID", Request.QueryString["ID"].Trim());
             rd = cmd.ExecuteReader();
             rpt_message.DataSource = rd;
@@ -194,8 +194,8 @@ public partial class Article_View : System.Web.UI.Page
             rd.Close();
 
 
-            cmd.CommandText = "select top 5* from Articles where SubID = @SubID3 and ID <>@ArticleID4 and Status = 1 and Finished = 1 and Valid = 1 and IsList=1 order by ViewTimes Desc";
-            cmd.Parameters.AddWithValue("@SubID3", SubID);
+            cmd.CommandText = "select top 5* from Articles where CatID = @CatID4 and ID <>@ArticleID4 and Status = 1 and Finished = 1 and Valid = 1 and IsList=1 order by ViewTimes Desc";
+            cmd.Parameters.AddWithValue("@CatID4", CatID);
             cmd.Parameters.AddWithValue("@ArticleID4", Request.QueryString["ID"].Trim());
             rd = cmd.ExecuteReader();
             if (!rd.Read()) { Panel2.Visible = false; }

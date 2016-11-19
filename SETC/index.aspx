@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    	<!--page-->
+        <!--page-->
 		<!-- REVOLUTION SLIDER -->
     <div class="fullwidthbanner-container">
         	<div class="fullwidthbanner">
@@ -60,7 +60,7 @@
 					
 				<!-- Caption -->
 				<div class="caption lfl stl rev-text rev-left" data-x="left" data-y="190" data-speed="800" data-start="1100" data-easing="easeOutExpo">
-					<p class="hidden-phone">锐赛思全终端媒体平台，创新性地推出全终端媒体平台，<br />
+					<p class="hidden-phone">禾美全终端媒体平台，创新性地推出全终端媒体平台，<br />
 					支持手机、平板、电脑、电视、微信、APP六大终端媒体，<br/>
 					成为行业内第一个覆盖全终端的媒体管理和发布平台。
 					</p>
@@ -91,7 +91,7 @@
 				<div class="caption lfl stl rev-text rev-left" data-x="left" data-y="200" data-speed="800" data-start="1700" data-easing="easeOutExpo">
 					<p class="white hidden-phone">校内的讲座订票，心理咨询，上课签到，大型活动预报名，医务室预约看病等等，<br />
 	都可以通过微信预约系统进行提前预约，从而省去繁琐的预约流程，节省时间<br />
-			锐赛思公司立志给你提供最贴心的校园微信预约服务。</p>
+			禾美公司立志给你提供最贴心的校园微信预约服务。</p>
 				</div>
 			</li>
 			
@@ -125,7 +125,7 @@
 			<div class="intro-icon-disc cont-large"><i class="fa fa-wrench intro-icon-large"></i></div>
 			<h6><small>DESIGN</small>
 			<br /><a href="Article_View.aspx?ID=3"><span>全媒体平台</span></a></h6>
-			<p>锐赛思全终端媒体平台，创新性地推出全终端媒体平台，支持手机、平板、电脑、电视、微信、APP六大终端媒体，成为行业内第一个覆盖全终端的媒体管理和发布平台。  </p>
+			<p>禾美全终端媒体平台，创新性地推出全终端媒体平台，支持手机、平板、电脑、电视、微信、APP六大终端媒体，成为行业内第一个覆盖全终端的媒体管理和发布平台。  </p>
 			</div> 
 				<div class="pad25"></div>
 				</div> 
@@ -134,8 +134,8 @@
 				<div class="tile">
 				<div class="intro-icon-disc cont-large"><i class="fa fa-rocket intro-icon-large"></i></div>
 				<h6><small>CODE</small>
-				<br><a href="Article_View.aspx?ID=6"><span>网站群管理系统</span></a></h6>
-				<p>锐赛思网站群管理系统，以集中部署、统一验证、分级管理、资源共享为核心，帮助政府、企业和高校将一群信息孤立网站，转变为风格统一、运营规范的整体网站。</p>
+				<br /><a href="Article_View.aspx?ID=6"><span>网站群管理系统</span></a></h6>
+				<p>禾美网站群管理系统，以集中部署、统一验证、分级管理、资源共享为核心，帮助政府、企业和高校将一群信息孤立网站，转变为风格统一、运营规范的整体网站。</p>
 				</div> 
 					<div class="pad25"></div>
 					</div> 
@@ -145,7 +145,7 @@
 				<div class="intro-icon-disc cont-large"><i class="fa fa-flask intro-icon-large"></i></div>
 				<h6><small>CREATE</small>
 				<br /><a href="Article_View.aspx?ID=7"><span>微信网站系统</span></a></h6>
-				<p>锐赛思微信网站系统，把企业的门户网站与微信公众号实现无缝整合，给企业和组织提供强大的业务服务能力和用户管理能力，帮助企业快速实现微信公众号的有效运营和管理。 </p>	
+				<p>禾美微信网站系统，把企业的门户网站与微信公众号实现无缝整合，给企业和组织提供强大的业务服务能力和用户管理能力，帮助企业快速实现微信公众号的有效运营和管理。 </p>	
 				</div> 
 					<div class="pad25"></div>
 					</div> 
@@ -154,8 +154,8 @@
 				<div class="tile ">
 				<div class="intro-icon-disc cont-large"><i class="fa fa-book  intro-icon-large"></i></div>
 				<h6> <small>SUPPORT</small>
-				<br><a href="Article_View.aspx?ID=8"><span>手机网站系统</span></a></h6>
-				<p>锐赛思手机网站系统，以手机用户的浏览体验为核心，精心设计手机页面，优化响应时间，提高用户满意度和转化率。锐赛思提供了手机网站的设计、开发、管理、和运维的一站式解决方案。</p>
+				<br /><a href="Article_View.aspx?ID=8"><span>手机网站系统</span></a></h6>
+				<p>禾美手机网站系统，以手机用户的浏览体验为核心，精心设计手机页面，优化响应时间，提高用户满意度和转化率。锐赛思提供了手机网站的设计、开发、管理、和运维的一站式解决方案。</p>
 				</div>
 					<div class="pad25"></div>	
 				</div> 
@@ -215,7 +215,7 @@
 					</div>
 				</div>
 				<div class="slider-title">
-				<h3><a href="#">多维度精神康复系统</a></h3>
+				<h3><a href="Article_View.aspx?ID=13">多维度精神康复系统</a></h3>
 				<p>专业化，量身为现代大中小型医院定制的医院信息管理系统，智能化，便捷化，信息化，减轻医院的信息负担，节省医疗成本</p>
 				</div>
 			</div>
@@ -233,57 +233,8 @@
 				</div>
 			</div>
 			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s5.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s5.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">mock up</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-					</div>
-				</div>
 			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s6.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s6.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">retro badges</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-					</div>
-				</div>
 			
-			<div class="slider-item">
-			<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s7.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s7.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">details</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
-			
-			<div class="slider-item">
-				<div class="slider-image">
-				<div class="hover_colour">
-				<a href="img/large/s8.jpg" data-rel="prettyPhoto">
-					<img src="img/small/s8.jpg" alt="" /></a>
-					</div>
-				</div>
-				<div class="slider-title">
-				<h3><a href="#">vintage form</a></h3>
-					<p>An his tamquam postulant, pri id mazim nostrud diceret.</p>
-				</div>
-			</div>
 				</div>
 				<div id="sl-prev" class="widget-scroll-prev"><i class="fa fa-chevron-left white"></i></div>
 				<div id="sl-next" class="widget-scroll-next"><i class="fa fa-chevron-right white but_marg"></i></div>
@@ -293,8 +244,6 @@
 			</div>
 		</div>
 		<!--//page-->
-		
-		<div class="pad25 hidden-desktop"></div>
 	</div>
 </asp:Content>
 
