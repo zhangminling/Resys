@@ -184,8 +184,8 @@
             <div class="slider-item">	
 				<div class="slider-image">
 				<div class="hover_colour">
-			<a href="img/large/1.png" data-rel="prettyPhoto">
-					<img src="img/small/1.png" alt="" /></a>
+			<a href="img/large/1.gif" data-rel="prettyPhoto">
+					<img src="img/small/1.gif" alt="" /></a>
 					</div>
 				</div>
 				<div class="slider-title">
@@ -197,8 +197,8 @@
 			<div class="slider-item">
 				<div class="slider-image">
 				<div class="hover_colour">
-				<a href="img/large/3.png" data-rel="prettyPhoto">
-					<img src="img/small/3.png" alt="" /></a>
+				<a href="img/large/3.gif" data-rel="prettyPhoto">
+					<img src="img/small/3.gif" alt="" /></a>
 					</div>
 				</div>
 				<div class="slider-title">
@@ -210,8 +210,8 @@
 			<div class="slider-item">
 				<div class="slider-image">
 				<div class="hover_colour">
-				<a href="img/large/2.png" data-rel="prettyPhoto">
-					<img src="img/small/2.png" alt="" /></a>
+				<a href="img/large/2.gif" data-rel="prettyPhoto">
+					<img src="img/small/2.gif" alt="" /></a>
 					</div>
 				</div>
 				<div class="slider-title">
