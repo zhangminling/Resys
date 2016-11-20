@@ -84,7 +84,7 @@
 				
 				<!-- Caption -->
 				<div class="caption lfl stl bold bg rev-left" data-x="left" data-y="80" data-speed="800" data-start="1500" data-easing="easeOutExpo">
-					<a href="Article_Preview.aspx?ID=11"><h3 class="rev-title big bold">校园微信预约系统</h3></a>
+					<a href="Article_View.aspx?ID=11"><h3 class="rev-title big bold">校园微信预约系统</h3></a>
 				</div>
 
 				<!-- Caption -->

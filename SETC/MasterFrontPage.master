@@ -52,7 +52,7 @@
 			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 			<i class="fa fa-bars"></i></button>
 					<div class="logo">
-						 <a href="index.html"><img src="img/logo.png" alt="" class="animated bounceInDown" /></a> 
+						 <a href="index.aspx"><img src="img/logo.png" alt="" class="animated bounceInDown" /></a> 
       
 					</div>
 					<!--menu-->

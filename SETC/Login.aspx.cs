@@ -71,7 +71,7 @@ public partial class Login : System.Web.UI.Page
                             ErrorLabel.Text = "用户名或密码错误！";
                             if (i < 10)
                             {
-                                Util.ShowMessage("登录失败！你还有" + (10 - i) + "次机会", "Login2.aspx");
+                                Util.ShowMessage("登录失败！你还有" + (10 - i) + "次机会", "Login.aspx");
                             }
                             else
                             {
