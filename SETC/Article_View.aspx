@@ -7,7 +7,7 @@
         jq("#a").click(function () {
             jq(this).html("aaaa");
         })
-      
+
 </script>
     <script type="text/javascript" src="js2/jquery.PrintArea.js"></script>
    <script src="js2/jquery-1.11.0.min.js" type="text/javascript"></script>
@@ -16,70 +16,70 @@
     $("#b").click(function () {
         $(this).html("bbbb");
     })
-   
+
 </script>
     <%-- 文章字体放大缩小js --%>
      <script>
-        window.onload = function () {
-          var cookieCount1 = {};
-            cookieCount1.count1 = function () {
-            var num = parseInt(this.getCount1('myCount1'));
-            var oP = document.getElementById('ctl00_ContentPlaceHolder1_Content');
-            var oBnt1 = document.getElementById('Abtn1');
-            var oBnt2 = document.getElementById('Abtn2');
-            var oBnt3 = document.getElementById('Abtn3');
-                oBnt3.onclick = function () {
-                    num = 14;
-                    oP.style.fontSize = num + 'px'; 
-                    document.cookie = 'myCount1=' + num + '';
-                   
-                }
+         window.onload = function () {
+             var cookieCount1 = {};
+             cookieCount1.count1 = function () {
+                 var num = parseInt(this.getCount1('myCount1'));
+                 var oP = document.getElementById('ctl00_ContentPlaceHolder1_Content');
+                 var oBnt1 = document.getElementById('Abtn1');
+                 var oBnt2 = document.getElementById('Abtn2');
+                 var oBnt3 = document.getElementById('Abtn3');
+                 oBnt3.onclick = function () {
+                     num = 14;
+                     oP.style.fontSize = num + 'px';
+                     document.cookie = 'myCount1=' + num + '';
 
-                oBnt1.onclick = function () {
-                    if (num < 22) {
-                        num++;
-                        oP.style.fontSize = num + 'px';
-                        document.cookie = 'myCount1=' + num + '';
-                      
-                    }
-                }
-                oBnt2.onclick = function () {
-                    if (num > 12) {
-                        num--;
-                        oP.style.fontSize = num + 'px';
-                        document.cookie = 'myCount1=' + num + '';
-                       
-                    }
-                }
+                 }
 
-               oP.style.fontSize = num + 'px'; 
+                 oBnt1.onclick = function () {
+                     if (num < 22) {
+                         num++;
+                         oP.style.fontSize = num + 'px';
+                         document.cookie = 'myCount1=' + num + '';
 
-            }
+                     }
+                 }
+                 oBnt2.onclick = function () {
+                     if (num > 12) {
+                         num--;
+                         oP.style.fontSize = num + 'px';
+                         document.cookie = 'myCount1=' + num + '';
 
-            cookieCount1.setCount1 = function () {
-                //首先得创建一个名为myCount的cookie
-                var expireDate = new Date();
-                expireDate.setDate(expireDate.getDate() + 1);
-                document.cookie = 'myCount1=' + '14' + ';expires=' + expireDate.toGMTString();
-            }
-            cookieCount1.getCount1 = function (countName1) {
-                //获取名为计数cookie,为其加1
-                var arrCookie = document.cookie.split('; ');
-                var arrLength = arrCookie.length;
-                var ini = true;
-                for (var i = 0; i < arrLength; i++) {
-                    if (countName1 == arrCookie[i].split('=')[0]) {
-                        return parseInt(arrCookie[i].split('=')[1]);
-                        break;
-                    } else {
-                        ini = false;
-                    }
-                }
-                if (ini == false) this.setCount1();
-                return 14;
-            }
-            cookieCount1.count1();
- };
+                     }
+                 }
+
+                 oP.style.fontSize = num + 'px';
+
+             }
+
+             cookieCount1.setCount1 = function () {
+                 //首先得创建一个名为myCount的cookie
+                 var expireDate = new Date();
+                 expireDate.setDate(expireDate.getDate() + 1);
+                 document.cookie = 'myCount1=' + '14' + ';expires=' + expireDate.toGMTString();
+             }
+             cookieCount1.getCount1 = function (countName1) {
+                 //获取名为计数cookie,为其加1
+                 var arrCookie = document.cookie.split('; ');
+                 var arrLength = arrCookie.length;
+                 var ini = true;
+                 for (var i = 0; i < arrLength; i++) {
+                     if (countName1 == arrCookie[i].split('=')[0]) {
+                         return parseInt(arrCookie[i].split('=')[1]);
+                         break;
+                     } else {
+                         ini = false;
+                     }
+                 }
+                 if (ini == false) this.setCount1();
+                 return 14;
+             }
+             cookieCount1.count1();
+         };
 
     </script>
 <%--<script>

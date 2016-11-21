@@ -3,12 +3,18 @@
 <%@ Register TagPrefix="UserControl" TagName="UC_Article_List3" Src="~/UC_Article_List3.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-
+     <link rel="stylesheet" href="pager.css" type="text/css" />
+     <link href="css2/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css2/fontello.css" rel="stylesheet" type="text/css" />
+    <link href="css2/style.css" rel="stylesheet" type="text/css" />
+     <script src="assets/js/jquery.cookie.js"></script>
+    <script src="assets/js/jquery-2.0.3.min.js"></script>
+   
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    
     <script type="text/javascript">
-
-
-        $(document).ready(function Order(e) {
-
+     $(document).ready(function Order(e) {
             var cookieCount = {};
             cookieCount.count = function () {
                 var count = parseInt(this.getCount('myCount'));
@@ -19,7 +25,7 @@
                     $('.trigger').hide();
                     count++;
                     document.cookie = 'myCount=' + count + '';
-                 
+
                 });
 
 
@@ -31,21 +37,21 @@
                     $('.trigger2').hide();
                     count++;
                     document.cookie = 'myCount=' + count + '';
-                   
+
 
                 });
                 if (count % 2 == 0) {
                     $('.Order').show();
                     $('.trigger').show();
                     $('.Admix').hide();
-                    $('.trigger2').hide(); 
+                    $('.trigger2').hide();
                 }
                 else {
                     $('.Admix').show();
                     $('.trigger2').show();
                     $('.Order').hide();
                     $('.trigger').hide();
-                
+
                 }
 
             }
@@ -72,24 +78,13 @@
                 return 0;
             }
             cookieCount.count();
-
-
-
-
-
-
         })
-                 
-
-    </script>
+   </script>
    
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <link rel="stylesheet" href="pager.css" type="text/css" />
-    <div class="list ">
-        <div class="row">
-            <div class="col-lg-9 col-md-9 col-sm-12 col-lg-push-3 col-md-push-3 col-sm-push-0">
-                <div class="row">
+         <div class="container wrapper">
+	<div class="inner_content toleft">
+              <div class="span7 pad8">
+                  <div class="row">
                     <!----- 主体1111111----->
                     <asp:Label ID="CategoryIDLabel" runat="server" Text="Label" Visible="false"></asp:Label>
                     <div id="CurrentPosition">
@@ -197,7 +192,7 @@
                        <div >
                  
                      <div  class="trigger" title="不混排"><i class="icons icon-th-list"></i></div>
-                        <div class="trigger2" title="混排"><i class="icons icon-menu"></i></div>
+                      <div class="trigger2" title="混排"><i class="icons icon-menu"></i></div>
 
        <!--- 不混排----->
                       <div class="Order" style="position:relative;">
@@ -284,7 +279,7 @@
             </div>
 
 
-            <div class="col-lg-3 col-md-3 col-sm-4  col-lg-pull-9 col-md-pull-9 col-sm-pull-8 sidebar" style="background: white;" id="sidebar">
+                    <div class="sidebar span3" style="background: white;" id="sidebar">
                 <!----- 侧边栏22222---->
 
                 <div style="padding-bottom: 20px; padding-top: 2px;">
@@ -320,7 +315,7 @@
 
                 <div style="padding-bottom: 20px; padding-top: 20px;padding-left:3px;">
                     <div style="width: 92%">
-                        <img src="images/h/h1.jpg" height="60"></div>
+                        <img src="images/h/h1.jpg" height="60"/></div>
                 </div>
 
                 <div class="my-box">
@@ -381,5 +376,6 @@
             </div>
         </div>
   </div>
+  <div class="changeblank"></div>  
 </asp:Content>
 

@@ -7,7 +7,6 @@
     <link href="css2/style.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <link rel="stylesheet" href="pager.css" type="text/css" />
     <asp:Label ID="TagID" runat="server" Visible="false"></asp:Label>
      <div class="container wrapper">
 	<div class="inner_content toleft">
