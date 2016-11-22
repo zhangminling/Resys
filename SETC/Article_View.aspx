@@ -21,10 +21,11 @@
     <%-- 文章字体放大缩小js --%>
      <script>
          window.onload = function () {
+           
              var cookieCount1 = {};
              cookieCount1.count1 = function () {
                  var num = parseInt(this.getCount1('myCount1'));
-                 var oP = document.getElementById('ctl00_ContentPlaceHolder1_Content');
+                 var oP = document.getElementById('ctl00_ContentPlaceHolder1_zoom');
                  var oBnt1 = document.getElementById('Abtn1');
                  var oBnt2 = document.getElementById('Abtn2');
                  var oBnt3 = document.getElementById('Abtn3');
@@ -44,7 +45,7 @@
                      }
                  }
                  oBnt2.onclick = function () {
-                     if (num > 12) {
+                    if (num > 12) {
                          num--;
                          oP.style.fontSize = num + 'px';
                          document.cookie = 'myCount1=' + num + '';
@@ -82,11 +83,37 @@
          };
 
     </script>
-<%--<script>
-    function doZoom(size) {
-        document.getElementById('zoom').style.fontSize = size + 'pt'
-    }
-</script>--%>
+
+<%--   <script>
+       window.onload = function () {
+               var btnSub = document.getElementById("Abtn2");
+               var btnAdd = document.getElementById("Abtn1");
+               var oBnt3 = document.getElementById('Abtn3');
+               var pText = document.getElementById("ctl00_ContentPlaceHolder1_zoom");
+
+               var size = 17;//默认字体是15px
+               btnSub.onclick = function () {
+                   if (size >= 5) {//设置最小字体为5px
+                       size -= 2;//每次减2px
+                       pText.style.fontSize = size + 'px';
+                   }
+
+               }
+
+               oBnt3.onclick = function () {
+                   num = 17;
+                   pText.style.fontSize = num + 'px';
+
+               }
+
+               btnAdd.onclick = function () {
+                   if (size <= 30) {//设置最大字体是30px
+                       size += 2;//每次点击按钮字体增加2
+                       pText.style.fontSize = size + 'px';//+'px'为了浏览器兼容
+                   }
+               }
+           }
+    </script>--%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <link rel="stylesheet" href="pager.css" type="text/css" />
@@ -111,7 +138,6 @@
     <div class="span7 pad8" >
             <div class="row">
                 <!----- 主体1111111-----> 
-               
                 <asp:Label ID="ArticleID" runat="server" Text="Label" Visible="false"></asp:Label>
                 <asp:Label ID="ArticleRandomID" runat="server" Text="Label" Visible="false"></asp:Label>
                <asp:Label ID="AbsoluteUrl" runat="server"  Visible="false"></asp:Label>
@@ -127,13 +153,7 @@
             
                 <p>&nbsp;</p>
              
- <%--  <div id="myPrintArea">
-   <div id="zoom1">这是一段示例文字，你可以点击下边选择不同字号的字体，这段文字会随即改变大小。脚本之家。</div>
-
-    <p align="right">选择字号：[ <a
- href="javascript:doZoom(25)">13pt（超大）</a> <a
- href="javascript:doZoom(15)">10.5pt（中型）</a> <a
- href="javascript:doZoom(10)">9pt（标准）</a> ]</p>--%>
+ <div id="myPrintArea">
                 <div class="ArticleTitle" style="color: #0097B3;">
                          <asp:Label ID="ArticleTitle" runat="server" Text="Label" Font-Bold="true" Font-Size="16"></asp:Label>
                 </div>
@@ -146,7 +166,6 @@
                     点赞：<asp:Label ID="LikeTimes" runat="server" Text="0"></asp:Label>
                     <input id="Abtn2" type="button" value="A-" />
                     <input id="Abtn3" type="button" value="A" />
-
                     <input id="Abtn1" type="button" value="A+" style="margin-top:-3px;" />
                     <span id="biuuu_button" ><i class="icons icon-print-2" title="打印文本" style="margin-top:-8px;"></i></span>
                <br />
@@ -416,6 +435,7 @@
 
    </div>
       </div>
+    </div>
   <div class="changeblank"></div>  
     <%--打印--%>
     <script type="text/javascript">
