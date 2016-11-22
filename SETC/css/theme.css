@@ -469,7 +469,7 @@ h1.intro {  line-height:40px; font-weight:300;}
 /**** LOGO****/
 .logo a{
  	float:left; 
-	margin:28px 0px 0 0;
+	margin:17px 0px 0 0;
 	webkit-transition:all 0.3s ease-in;  
     -moz-transition:all 0.3s ease-in;  
     -o-transition:all 0.3s ease-in;  
@@ -489,10 +489,10 @@ h1.intro {  line-height:40px; font-weight:300;}
 	display: inline-block;
 }
 .nav-pills > li > a {
-	font-weight: 400;
-	color: #bbb;
+	font-weight: 600;
+	color: #fff;
 	letter-spacing: 2px;
-	font-size: 13px;
+	font-size: 14px;
 	display: block;
 	padding:24px 22px 22px 25px;
 	text-align: center!important;
@@ -507,7 +507,7 @@ h1.intro {  line-height:40px; font-weight:300;}
     border-radius: 4px 4px 0px 0px;
 }
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus { background: transparent; }
-.nav-pills > li > a:hover { background: transparent; color: #fff; }
+.nav-pills > li > a:hover { background: transparent; color:#bbb; }
 
 .dropdown-menu {
 	background: #fff;
@@ -515,7 +515,7 @@ h1.intro {  line-height:40px; font-weight:300;}
 	left:-25px;
 	padding:0;
 	position:absolute;
-	top:80px;
+	top:60px;
 	width:170px;
 	z-index:300;
 	-webkit-border-radius: 4px;
@@ -2055,7 +2055,7 @@ a.pp_close { right: 10px!important; top: 12px!important; }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 320px) {
-h1.title { line-height:40px;!important; }
+h1.title { line-height:40px!important; }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px){

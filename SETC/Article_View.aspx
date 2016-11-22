@@ -19,10 +19,11 @@
 
 </script>
     <%-- 文章字体放大缩小js --%>
-     <script>
+<script>
          window.onload = function () {
-           
+
              var cookieCount1 = {};
+
              cookieCount1.count1 = function () {
                  var num = parseInt(this.getCount1('myCount1'));
                  var oP = document.getElementById('ctl00_ContentPlaceHolder1_zoom');
@@ -84,35 +85,39 @@
 
     </script>
 
-<%--   <script>
-       window.onload = function () {
-               var btnSub = document.getElementById("Abtn2");
-               var btnAdd = document.getElementById("Abtn1");
-               var oBnt3 = document.getElementById('Abtn3');
-               var pText = document.getElementById("ctl00_ContentPlaceHolder1_zoom");
+<%--    <script>
+          window.onload = function () {
+              var btnSub = document.getElementById("btnSub");
+              var btnAdd = document.getElementById("btnAdd");
+              var btnRed = document.getElementById("btnRed");
+              var btnYellow = document.getElementById("btnYellow");
+              var pText = document.getElementById("ctl00_ContentPlaceHolder1_zoom").getElementsByTagName("p");
 
-               var size = 17;//默认字体是15px
-               btnSub.onclick = function () {
-                   if (size >= 5) {//设置最小字体为5px
-                       size -= 2;//每次减2px
-                       pText.style.fontSize = size + 'px';
-                   }
+              var size = 15;//默认字体是15px
+              btnSub.onclick = function () {
+                  if (size >= 5) {//设置最小字体为5px
+                      size -= 2;//每次减2px
+                      pText.style.fontSize = size + 'px';
+                  }
 
-               }
+              }
 
-               oBnt3.onclick = function () {
-                   num = 17;
-                   pText.style.fontSize = num + 'px';
+              btnAdd.onclick = function () {
+                  if (size <= 30) {//设置最大字体是30px
+                      size += 2;//每次点击按钮字体增加2
+                      pText.style.fontSize = size + 'px';//+'px'为了浏览器兼容
+                  }
+              }
 
-               }
+              btnRed.onclick = function () {
+                  pText.className = "red"; //为什么不写成 pText.class="red"???  答案:class是保留字,不能用
+              }
 
-               btnAdd.onclick = function () {
-                   if (size <= 30) {//设置最大字体是30px
-                       size += 2;//每次点击按钮字体增加2
-                       pText.style.fontSize = size + 'px';//+'px'为了浏览器兼容
-                   }
-               }
-           }
+              btnYellow.onclick = function () {
+                  pText.className = "yellow";
+              }
+
+          }
     </script>--%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -132,7 +137,12 @@
     </div>  
     </div>--%>
     <asp:TextBox ID="User_id" runat="server" Visible="False"></asp:TextBox>
-   
+<%-- <p id="pText">苍老师:我想..苍老师:还想
+    苍老师:真的想</p>
+<input id="btnSub" type="button" value="字体变小"/>
+<input id="btnAdd" type="button" value="字体变大"/>
+<input id="btnRed" type="button" value="改变颜色-红色"/>
+<input id="btnYellow" type="button" value="改变颜色-黄色"/>--%>
   <div class="container wrapper">
 	<div class="inner_content toleft">
     <div class="span7 pad8" >
@@ -376,7 +386,7 @@
                         <ItemTemplate>
                             <div>
                                 <p>
-                                    <img src="images/irow_o_r.gif" />
+                                    <img src="images/irow_o_r.gif" style="margin-top:5px;"/>
                                     <a href='Article_List4.aspx?ID=<%# Eval("ID") %>'><%# Eval("SubName") %></a>
                                 </p>
                             </div>

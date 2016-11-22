@@ -68,8 +68,7 @@
 					
 				<!-- Caption -->
 				<div class="caption sfb stb rev-left" data-x="left" data-y="380" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
-					<a href="Article_View.aspx?ID=3" class="btn btn-inverse btn-custom mobile">具体详情</a>   &nbsp;&nbsp;
-					<a href="#" class="btn btn-inverse btn-custom mobile">联系我们</a>                     
+					<a href="Article_View.aspx?ID=3" class="btn btn-inverse btn-custom mobile">具体详情</a>   &nbsp;&nbsp;                  
 				</div>
 			</li>
 			
@@ -90,8 +89,14 @@
 				<!-- Caption -->
 				<div class="caption lfl stl rev-text rev-left" data-x="left" data-y="200" data-speed="800" data-start="1700" data-easing="easeOutExpo">
 					<p class="white hidden-phone">校内的讲座订票，心理咨询，上课签到，大型活动预报名，医务室预约看病等等，<br />
-	都可以通过微信预约系统进行提前预约，从而省去繁琐的预约流程，节省时间<br />
-			禾美公司立志给你提供最贴心的校园微信预约服务。</p>
+	                  都可以通过微信预约系统进行提前预约，从而省去繁琐的预约流程，节省时间<br />
+			          禾美公司立志给你提供最贴心的校园微信预约服务。</p>
+				</div>
+
+                	
+				<!-- Caption -->
+				<div class="caption sfb stb rev-left" data-x="left" data-y="380" data-speed="1100" data-start="1500" data-easing="easeOutExpo">
+					<a href="Article_View.aspx?ID=11" class="btn btn-inverse btn-custom mobile">具体详情</a>   &nbsp;&nbsp;                  
 				</div>
 			</li>
 			
@@ -101,12 +106,12 @@
 				
 				<!-- Caption -->
 				<div class="caption fade fullscreenvideo" data-autoplay="false"  data-speed="500" data-start="500" data-easing="easeOutBack">
-				 <a href="Article_View.aspx?ID=9"><img src="img/slider/slidera.jpg" alt="" /></a>
+				<img src="img/slider/slidera.jpg" alt="" />
 				</div>
 				
 				<div class="caption big_white sft stt" data-x="center" data-y="25" data-speed="300" data-start="500" data-easing="easeOutExpo" data-end="4000" 
 				data-endspeed="300" data-endeasing="easeInSine">
-				 <a href="Article_View.aspx?ID=9">资源库管理系统</a>
+				资源库管理系统
 				</div>
 			</li>
 		</ul>
